@@ -12,6 +12,62 @@ header {
     font-size: 30px;
 }
 
+.nav{
+    background: #2453D3;
+    color: white;
+    height: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+svg{
+    /* translate: 0 3px; */
+}
+.all-categories{
+    display: flex;
+    background-color: white ;
+    padding: 15px 15px;
+    /* height: 70px; */
+    /* translate: 0 -10px; */
+    align-items: center;
+    justify-content: center;
+    color: #2453D3;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+.all-categories:hover {
+    color: white;
+    background-color: black;
+};
+.nav-title{
+    padding: 16px 40px;
+    text-align: center;
+    font-family: 'Sigmar', cursive;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+.nav-menu{
+    width: 100%;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-menu ul li{
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+    list-style-type: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.nav-menu ul li:hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+
 .shell{
   padding:80px 0;
 }
@@ -184,4 +240,53 @@ li {
     list-style: none;
     text-align: center;
 
+}
+
+footer{
+    margin-top: 50px;
+    height: 200px;
+    background-color: #2453d387;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.copyright {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.social-icons-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.social-icons img {
+    max-height: 50px;
+    max-height: 50px;
+    margin-right: 80px;
+    transition: all 0.2s;
+    border-radius: 999px;
+    overflow: hidden;
+}
+.instagram:hover{
+    border-radius: 999px;
+}
+.github:hover{
+    border-radius: 999px;
+}
+.youtube:hover{
+    border-radius: 999px;
+}
+.twitter:hover{
+    border-radius: 999px;
+}
+.facebook:hover{
+    border-radius: 999px;
+}
+.social-icons img:hover{
+    scale: 150%;
 }
