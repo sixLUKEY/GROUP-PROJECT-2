@@ -60,7 +60,7 @@ body {
     transform: rotateY(180deg);
 }
 
-img {
+.flip-card-front img {
     width: 300px;
     height: 400px;
 }
@@ -176,6 +176,11 @@ footer{
 
 .left-column {
     width: 70%;
+}
+
+.right-column img {
+    width: 300px;
+    height: 400px;
 }
 hr {
     margin: 40px;
