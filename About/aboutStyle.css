@@ -5,7 +5,7 @@ body {
 }
 
 .heading {
-    width: 960px;
+    width: 100%;
     margin: 10px;
     background-color: #2453D3;
     text-align: center;
@@ -18,7 +18,7 @@ body {
 }
 
 .flex-container > div {
-    margin: 10px;
+    margin-left: 10px;
     padding-left: 10px;
 }
 
@@ -170,6 +170,18 @@ footer{
     scale: 150%;
 }
 
+.columns {
+    display: flex;
+}
 
+.left-column {
+    width: 70%;
+}
+hr {
+    margin: 40px;
+    border: solid #2453D3;
+}
 
-
+.right-column {
+    width: 30%;
+}
